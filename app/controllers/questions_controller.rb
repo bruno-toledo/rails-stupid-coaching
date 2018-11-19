@@ -1,7 +1,4 @@
-class QuestionController < ApplicationController
-  # attr_reader :ask
-  QUESTIONS =
-
+class QuestionsController < ApplicationController
   ANSWERS = {
     answer1: 'Silly question, get dressed and go to work!',
     answer2: "I don't care, get dressed and go to work!",
